@@ -1,0 +1,4 @@
+#Basic Inner Join
+Select * from [POS].dbo.[All Products]
+Inner Join [POS].dbo.[Total Units Sold by Week]
+On [All Products].[Item Number]=[Total Units Sold by Week].[Item Number]
